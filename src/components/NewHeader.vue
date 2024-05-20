@@ -12,6 +12,7 @@ import {ref,defineProps} from 'vue'
 defineProps(["title","color"])
 
 const defaultColor = ref('red')
+const name = ref('Vaica')
 
 </script>
 
