@@ -38,9 +38,9 @@ async function loadMore(){
     params:{
         limit:10,
         page
-    }
+    }})
 }
-}
+
 // ajax请求数据
 
 
