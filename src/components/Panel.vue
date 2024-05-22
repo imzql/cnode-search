@@ -34,9 +34,9 @@ let news: any = ref([])
 let newComputed = computed(() => {
   if (dataStore.searchValue) {
     return news.value.filter((item: any) => {
-      console.log(item)
-      
-      if (item.title.findIndex(dataStore.searchValue) != -1) {
+      console.log("@@@"+item)
+    
+      if (item.title.includes(dataStore.searchValue)) {
         return item
       }
     })
