@@ -12,6 +12,6 @@ Ui使用的组件库是weui
 
 接口地址：https://cnodejs.org/api
 
-项目预览: cnode.5b2.cn
+项目预览: https://cnode.5b2.cn
 
 
